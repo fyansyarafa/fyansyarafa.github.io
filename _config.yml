@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "La Ode Muhamad Sofyan Syarafa"
-  avatar           : "images\sofian.jpg"
+  avatar           : "/images/sofian.jpg"
   bio              : "Data Science Portofolio"
   location         : "Bandung, West Java, Indonesia"
   email            :
