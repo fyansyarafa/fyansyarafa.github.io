@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Data Science Portofolio"
+title                    : "La Ode Muhamad Sofyan Syarafa"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "La Ode Muhamad Sofyan Syarafa"
-description              : "An amazing website."
+description              : "Data Science Portofolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "La Ode Muhamad Sofyan Syarafa"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Data Science Portofolio"
   location         : "Bandung, West Java, Indonesia"
   email            :
   links:
@@ -279,3 +279,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
