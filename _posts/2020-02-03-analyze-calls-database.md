@@ -356,7 +356,7 @@ sns.countplot(df['Reason'])
 
 
 
-![png](images/output_27_1.png)
+![png](/images/output_27_1.png)
 
 
 ___
@@ -625,7 +625,7 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 
 
 
-![png](images/output_42_1.png)
+![png](/images/output_42_1.png)
 
 
 **Now do the same for Month:**
@@ -644,7 +644,7 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 
 
 
-![png](images/output_44_1.png)
+![png](/images/output_44_1.png)
 
 
 **Did you notice something strange about the Plot?**
@@ -893,7 +893,7 @@ bymonth['lat'].plot()
 
 
 
-![png](images/output_52_1.png)
+![png](/images/output_52_1.png)
 
 
 
@@ -913,7 +913,7 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 
 
 
-![png](images/output_53_2.png)
+![png](/images/output_53_2.png)
 
 
 ** Now see if you can use seaborn's lmplot() to create a linear fit on the number of calls per month. Keep in mind you may need to reset the index to a column. **
@@ -936,7 +936,7 @@ sns.lmplot(x='Month',y='twp',data=bymonth.reset_index())
 
 
 
-![png](images/output_56_1.png)
+![png](/images/output_56_1.png)
 
 
 **Create a new column called 'Date' that contains the date from the timeStamp column. You'll need to use apply along with the .date() method. **
@@ -1069,7 +1069,7 @@ plt.tight_layout()
 
 
 
-![png](images/output_61_1.png)
+![png](/images/output_61_1.png)
 
 
 ** Now recreate this plot but create 3 separate plots with each plot representing a Reason for the 911 call**
@@ -1102,7 +1102,7 @@ plt.title('Traffic')
 
 
 
-![png](images/output_64_2.png)
+![png](/images/output_64_2.png)
 
 
 
@@ -1128,7 +1128,7 @@ plt.title('Fire')
 
 
 
-![png](images/output_65_2.png)
+![png](/images/output_65_2.png)
 
 
 
@@ -1154,7 +1154,7 @@ plt.title('EMS')
 
 
 
-![png](images/output_66_2.png)
+![png](/images/output_66_2.png)
 
 
 ____
@@ -1421,7 +1421,7 @@ plt.tight_layout()
 ```
 
 
-![png](images/output_70_0.png)
+![png](/images/output_70_0.png)
 
 
 ** Now create a clustermap using this DataFrame. **
@@ -1442,7 +1442,7 @@ plt.tight_layout()
 
 
 
-![png](images/output_72_2.png)
+![png](/images/output_72_2.png)
 
 
 ** Now repeat these same plots and operations, for a DataFrame that shows the Month as the column. **
@@ -1602,7 +1602,7 @@ sns.heatmap(inmonth)
 
 
 
-![png](images/output_75_1.png)
+![png](/images/output_75_1.png)
 
 
 
@@ -1618,7 +1618,7 @@ sns.clustermap(inmonth)
 
 
 
-![png](images/output_76_1.png)
+![png](/images/output_76_1.png)
 
 
 **Continue exploring the Data however you see fit!**
