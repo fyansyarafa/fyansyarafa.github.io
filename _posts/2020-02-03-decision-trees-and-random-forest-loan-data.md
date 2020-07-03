@@ -1,5 +1,5 @@
 ---
-title: "Potential Investment to Lending Club Data Modeling"
+title: "Decision Tree & Random Forest Exercise"
 data: 2020-02-03
 tags: [python,  decision tree, random forest, exploratory data analysis, machine learning, classification, supervised leaning, decision tree, random forest]
 header:
