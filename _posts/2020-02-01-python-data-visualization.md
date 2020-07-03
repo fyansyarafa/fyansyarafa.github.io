@@ -124,7 +124,7 @@ df3.plot.scatter(x='a',y='b')
 
 
 
-![png](output_5_1.png)
+![png](/output_5_1.png)
 
 
 
@@ -140,7 +140,7 @@ df3.plot.scatter(x='a',y='b',figsize=(12.1,3),c='r',s=50,edgecolor='black')
 
 
 
-![png](output_6_1.png)
+![png](/output_6_1.png)
 
 
 ** Create a histogram of the 'a' column.**
@@ -160,7 +160,7 @@ df3['a'].plot.hist()
 
 
 
-![png](output_8_1.png)
+![png](/output_8_1.png)
 
 
 ** These plots are okay, but they don't look very polished. Use style sheets to set the style to 'ggplot' and redo the histogram from above. Also figure out how to add more bins to it.***
@@ -185,7 +185,7 @@ df3['a'].plot.hist(bins=20,alpha=0.5)
 
 
 
-![png](output_11_1.png)
+![png](/output_11_1.png)
 
 
 ** Create a boxplot comparing the a and b columns.**
@@ -203,7 +203,7 @@ df3[['a','b']].plot.box()
 
 
 
-![png](output_13_1.png)
+![png](/output_13_1.png)
 
 
 ** Create a kde plot of the 'd' column **
@@ -221,7 +221,7 @@ df3['d'].plot.kde()
 
 
 
-![png](output_15_1.png)
+![png](/output_15_1.png)
 
 
 ** Figure out how to increase the linewidth and make the linestyle dashed. (Note: You would usually not dash a kde plot line)**
@@ -239,7 +239,7 @@ df3['d'].plot.density(ls='--',lw=3)
 
 
 
-![png](output_17_1.png)
+![png](/output_17_1.png)
 
 
 ** Create an area plot of all the columns for just the rows up to 30. (hint: use .ix).**
@@ -272,7 +272,7 @@ baru.plot.area(alpha=0.5,stacked=True)
 
 
 
-![png](output_20_1.png)
+![png](/output_20_1.png)
 
 
 
@@ -294,7 +294,7 @@ plt.legend(loc='best',bbox_to_anchor=(1.0,0.5))
 ```
 
 
-![png](output_23_0.png)
+![png](/output_23_0.png)
 
 
 # Great Job!
