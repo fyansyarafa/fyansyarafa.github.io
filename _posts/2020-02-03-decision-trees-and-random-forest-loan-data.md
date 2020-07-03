@@ -1,9 +1,9 @@
 ---
-title: "Potential Investment to Lending Club Data"
+title: "Potential Investment to Lending Club Data Modeling"
 data: 2020-02-03
 tags: [python,  decision tree, random forest, exploratory data analysis, machine learning, classification, supervised leaning, decision tree, random forest]
 header:
-excerpt: "Giving classification from loan data"
+excerpt: "Giving classification model from loan data"
 mathjax: "true"
 ---
 
