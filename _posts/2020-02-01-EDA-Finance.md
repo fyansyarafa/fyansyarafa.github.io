@@ -1,4 +1,13 @@
-# Finance Data Project 
+---
+title: "Finance Data Project "
+data: 2020-02-01
+tags: [exercise, data visualization, finance, exploratory data analysis]
+header:
+excerpt: "EDA Finance Portofolio"
+mathjax: "true"
+---
+
+
 
 In this data project we will focus on exploratory data analysis of stock prices. Keep in mind, this project is just meant to practice your visualization and pandas skills, it is not meant to be a robust financial analysis or be taken as financial advice.
 ____
@@ -30,7 +39,7 @@ import seaborn as sns
 
     C:\Users\abulu\anaconda3\lib\site-packages\pandas_datareader\compat\__init__.py:7: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
       from pandas.util.testing import assert_frame_equal
-    
+
 
 ## Data
 
@@ -48,11 +57,11 @@ We need to get data using pandas datareader. We will get stock information for t
 2. Figure out how to use datareader to grab info on the stock.
 
 ** Use [this documentation page](https://pandas-datareader.readthedocs.io/en/latest/remote_data.html) for hints and instructions (it should just be a matter of replacing certain values. Use google finance as a source, for example:**
-    
+
     # Bank of America
     BAC = data.DataReader("BAC", 'google', start, end)
 
-### WARNING: MAKE SURE TO CHECK THE LINK ABOVE FOR THE LATEST WORKING API. "google" MAY NOT ALWAYS WORK. 
+### WARNING: MAKE SURE TO CHECK THE LINK ABOVE FOR THE LATEST WORKING API. "google" MAY NOT ALWAYS WORK.
 ------------
 ### We also provide pickle file in the article lecture right before the video lectures.
 
@@ -643,7 +652,7 @@ returns = pd.DataFrame()
 ```python
 for tick in tickers:
     returns[tick+' Return'] = bank_stocks[tick]['Close'].pct_change()
-    
+
 returns.head()
 ```
 
@@ -881,7 +890,7 @@ returns['BAC Return'].argmin()
     will be corrected to return the positional minimum in the future.
     Use 'series.values.argmin' to get the position of the minimum now.
       """Entry point for launching an IPython kernel.
-    
+
 
 
 
@@ -918,13 +927,13 @@ for date in returns:
     GS Return 2009-01-20 00:00:00
     JPM Return 2009-01-20 00:00:00
     WFC Return 2009-01-20 00:00:00
-    
+
 
     C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:2: FutureWarning: 'argmin' is deprecated, use 'idxmin' instead. The behavior of 'argmin'
     will be corrected to return the positional minimum in the future.
     Use 'series.values.argmin' to get the position of the minimum now.
-      
-    
+
+
 
 ** You should have noticed that Citigroup's largest drop and biggest gain were very close to one another, did anythign significant happen in that time frame? **
 
@@ -990,15 +999,15 @@ returns.ix['2015-01-01':'2015-12-31'].std().sort_values(ascending=False)
 #the riskiest stock of 2015 is BAC, who has the highest standart deviation
 ```
 
-    C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:1: DeprecationWarning: 
+    C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:1: DeprecationWarning:
     .ix is deprecated. Please use
     .loc for label based indexing or
     .iloc for positional indexing
-    
+
     See the documentation here:
     http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
       """Entry point for launching an IPython kernel.
-    
+
 
 
 
@@ -1019,15 +1028,15 @@ returns.ix['2015-01-01':'2015-12-31'].std().sort_values(ascending=False)
 sns.distplot(returns['GS Return'][1:].ix['2015-01-01':'2015-12-31'])
 ```
 
-    C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:1: DeprecationWarning: 
+    C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:1: DeprecationWarning:
     .ix is deprecated. Please use
     .loc for label based indexing or
     .iloc for positional indexing
-    
+
     See the documentation here:
     http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
       """Entry point for launching an IPython kernel.
-    
+
 
 
 
@@ -1047,15 +1056,15 @@ sns.distplot(returns['GS Return'][1:].ix['2015-01-01':'2015-12-31'])
 sns.distplot(returns['C Return'][1:].ix['2008-01-01':'2008-12-31'])
 ```
 
-    C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:1: DeprecationWarning: 
+    C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:1: DeprecationWarning:
     .ix is deprecated. Please use
     .loc for label based indexing or
     .iloc for positional indexing
-    
+
     See the documentation here:
     http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
       """Entry point for launching an IPython kernel.
-    
+
 
 
 
@@ -1197,7 +1206,7 @@ if (outputEl) {{
 
 ## Moving Averages
 
-Let's analyze the moving averages for these stocks in the year 2008. 
+Let's analyze the moving averages for these stocks in the year 2008.
 
 ** Plot the rolling 30 day average against the Close Price for Bank Of America's stock for the year 2008**
 
@@ -1305,26 +1314,26 @@ plt.legend()
 ```
 
     C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:2: DeprecationWarning:
-    
-    
+
+
     .ix is deprecated. Please use
     .loc for label based indexing or
     .iloc for positional indexing
-    
+
     See the documentation here:
     http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
-    
+
     C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: DeprecationWarning:
-    
-    
+
+
     .ix is deprecated. Please use
     .loc for label based indexing or
     .iloc for positional indexing
-    
+
     See the documentation here:
     http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
-    
-    
+
+
 
 
 
@@ -1535,20 +1544,20 @@ bank_stocks.xs(key='BAC',axis=1,level='Bank Ticker').head()
 
 
 ```python
-bank_stocks.xs(key='BAC',axis=1,level='Bank Ticker').ix['2015-01-01':'2016-01-01'].iplot(kind='candle') 
+bank_stocks.xs(key='BAC',axis=1,level='Bank Ticker').ix['2015-01-01':'2016-01-01'].iplot(kind='candle')
 ```
 
     C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:1: DeprecationWarning:
-    
-    
+
+
     .ix is deprecated. Please use
     .loc for label based indexing or
     .iloc for positional indexing
-    
+
     See the documentation here:
     http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
-    
-    
+
+
 
 
 <div>
@@ -1606,16 +1615,16 @@ JKSE['Close'].ix['2015-01-01':'2019-11-15'].ta_plot(study='sma')
 ```
 
     C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:2: DeprecationWarning:
-    
-    
+
+
     .ix is deprecated. Please use
     .loc for label based indexing or
     .iloc for positional indexing
-    
+
     See the documentation here:
     http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
-    
-    
+
+
 
 
 <div>
@@ -1670,16 +1679,16 @@ JKSE['Close'].ix['2019-01-01':'2019-11-15'].tail()
 ```
 
     C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:1: DeprecationWarning:
-    
-    
+
+
     .ix is deprecated. Please use
     .loc for label based indexing or
     .iloc for positional indexing
-    
+
     See the documentation here:
     http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
-    
-    
+
+
 
 
 
@@ -1702,16 +1711,16 @@ JKSE['Close'].ix['2015-01-01':'2019-11-15'].ta_plot(study='boll')
 ```
 
     C:\Users\User\Anaconda3\lib\site-packages\ipykernel_launcher.py:1: DeprecationWarning:
-    
-    
+
+
     .ix is deprecated. Please use
     .loc for label based indexing or
     .iloc for positional indexing
-    
+
     See the documentation here:
     http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
-    
-    
+
+
 
 
 <div>
