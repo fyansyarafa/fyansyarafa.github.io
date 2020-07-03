@@ -3,7 +3,7 @@ title: "Analyzing Ecommerce Company"
 data: 2020-02-03
 tags: [python, linear regression, exploratory data analysis, machine learning]
 header:
-excerpt: "Giving Ecommerce company an analysis about whether to focus their efforts on their mobile app experience or their website"
+excerpt: "Giving ecommerce company an analysis about whether to focus their efforts on their mobile app experience or their website"
 mathjax: "true"
 ---
 
