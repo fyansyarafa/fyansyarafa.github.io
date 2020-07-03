@@ -1,8 +1,12 @@
-___
+---
+title: "Advertising Analysis"
+data: 2020-02-03
+tags: [python, logistic regression, exploratory data analysis, machine learning, classification, supervised leaning]
+header:
+excerpt: " whether or not they will click on an ad based off the features of that user"
+mathjax: "true"
+---
 
-
-___
-# Logistic Regression Project 
 
 In this project we will be working with a fake advertising data set, indicating whether or not a particular internet user clicked on an Advertisement. We will try to create a model that will predict whether or not they will click on an ad based off the features of that user.
 
@@ -174,7 +178,7 @@ ad_data.info()
     Clicked on Ad               1000 non-null int64
     dtypes: float64(3), int64(3), object(4)
     memory usage: 78.2+ KB
-    
+
 
 
 ```python
@@ -569,7 +573,7 @@ logmodel.fit(X_train, y_train)
 
     C:\Users\User\Anaconda3\lib\site-packages\sklearn\linear_model\logistic.py:432: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
       FutureWarning)
-    
+
 
 
 
@@ -1089,19 +1093,19 @@ print(cr(y_test,predictions))
 ```
 
                   precision    recall  f1-score   support
-    
+
                0       0.91      0.95      0.93       157
                1       0.94      0.90      0.92       143
-    
+
         accuracy                           0.92       300
        macro avg       0.92      0.92      0.92       300
     weighted avg       0.92      0.92      0.92       300
-    
-    
+
+
 
 
 ```python
-from sklearn.metrics import confusion_matrix 
+from sklearn.metrics import confusion_matrix
 #matrix = cm(y_test, predictions, labels=None, sample_weight=None)
 def plot_cm(y_true, predictions, figsize=(5,4)):
     cm = confusion_matrix(y_test, predictions, labels=np.unique(y_true))
@@ -1125,7 +1129,7 @@ def plot_cm(y_true, predictions, figsize=(5,4)):
     cm.columns.name = 'Predicted'
     fig, ax = plt.subplots(figsize=figsize)
     annot_kws = {"ha": 'left',"va": 'bottom'}
-    
+
     ae = sns.heatmap(cm, cmap= "YlGnBu", annot=annot,fmt='', ax=ax)
     bottom, top = ae.get_ylim()
     ae.set_ylim(bottom + 0.5, top - 0.5)
@@ -1136,7 +1140,7 @@ plt.tight_layout()
 
     [[149   8]
      [ 15 128]]
-    
+
 
 
 ![png](output_40_1.png)

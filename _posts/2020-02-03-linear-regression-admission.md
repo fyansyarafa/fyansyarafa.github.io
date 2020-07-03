@@ -1,7 +1,7 @@
 ---
 title: "Linear Regression Admission"
 data: 2020-02-03
-tags: [python, linear regression, exploratory data analysis, machine learning]
+tags: [python, linear regression, exploratory data analysis, machine learning, template]
 header:
 excerpt: "Linear Regression Exercise Template"
 mathjax: "true"
