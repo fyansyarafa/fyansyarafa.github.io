@@ -1,7 +1,11 @@
-___
-
-___
-# Random Forest Project 
+---
+title: "Potential Investment to Lending Club Data"
+data: 2020-02-03
+tags: [python,  decision tree, random forest, exploratory data analysis, machine learning, classification, supervised leaning, decision tree, random forest]
+header:
+excerpt: "Giving classification from loan data"
+mathjax: "true"
+---
 
 For this project we will be exploring publicly available data from [LendingClub.com](www.lendingclub.com). Lending Club connects people who need money (borrowers) with people who have money (investors). Hopefully, as an investor you would want to invest in people who showed a profile of having a high probability of paying you back. We will try to create a model that will help predict this.
 
@@ -72,7 +76,7 @@ loans.info()
     not.fully.paid       9578 non-null int64
     dtypes: float64(6), int64(7), object(1)
     memory usage: 1.0+ MB
-    
+
 
 
 ```python
@@ -410,7 +414,7 @@ plt.xlabel('Fico')
 
 
 
-![png](output_10_1.png)
+![png](/images/output_10_1.png)
 
 
 ** Create a similar figure, except this time select by the not.fully.paid column.**
@@ -431,7 +435,7 @@ plt.legend()
 
 
 
-![png](output_12_1.png)
+![png](/images/output_12_1.png)
 
 
 ** Create a countplot using seaborn showing the counts of loans by purpose, with the color hue defined by not.fully.paid. **
@@ -444,7 +448,7 @@ plt.tight_layout()
 ```
 
 
-![png](output_14_0.png)
+![png](/images/output_14_0.png)
 
 
 ** Let's see the trend between FICO score and interest rate. Recreate the following jointplot.**
@@ -462,7 +466,7 @@ sns.jointplot(x=loans['fico'],y=loans['int.rate'],kind='hex')
 
 
 
-![png](output_16_1.png)
+![png](/images/output_16_1.png)
 
 
 ** Create the following lmplots to see if the trend differed between not.fully.paid and credit.policy. Check the documentation for lmplot() if you can't figure out how to separate it into columns.**
@@ -484,7 +488,7 @@ sns.lmplot(x=loans[])
 
 
 
-![png](output_18_2.png)
+![png](/images/output_18_2.png)
 
 
 
@@ -500,7 +504,7 @@ sns.lmplot(x='fico',y='int.rate',data=loans,hue='credit.policy',col='not.fully.p
 
 
 
-![png](output_19_1.png)
+![png](/images/output_19_1.png)
 
 
 # Setting up the Data
@@ -533,7 +537,7 @@ loans.info()
     not.fully.paid       9578 non-null int64
     dtypes: float64(6), int64(7), object(1)
     memory usage: 1.0+ MB
-    
+
 
 ## Categorical Features
 
@@ -598,7 +602,7 @@ final_data.info()
     purpose_small_business        9578 non-null uint8
     dtypes: float64(6), int64(7), uint8(6)
     memory usage: 1.0 MB
-    
+
 
 
 ```python
@@ -851,15 +855,15 @@ print(cr(y_test, pred))
 ```
 
                   precision    recall  f1-score   support
-    
+
                0       0.85      0.82      0.84      2431
                1       0.19      0.23      0.21       443
-    
+
         accuracy                           0.73      2874
        macro avg       0.52      0.53      0.52      2874
     weighted avg       0.75      0.73      0.74      2874
-    
-    
+
+
 
 
 ```python
@@ -868,7 +872,7 @@ print(cm(y_test,pred))
 
     [[1996  435]
      [ 341  102]]
-    
+
 
 ## Training the Random Forest model
 
@@ -893,7 +897,7 @@ rfc.fit(X_train,y_train)
 
     C:\Users\User\Anaconda3\lib\site-packages\sklearn\ensemble\forest.py:245: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
       "10 in version 0.20 to 100 in 0.22.", FutureWarning)
-    
+
 
 
 
@@ -927,15 +931,15 @@ print(cr(y_test,pred_rfc))
 ```
 
                   precision    recall  f1-score   support
-    
+
                0       0.85      0.98      0.91      2431
                1       0.35      0.05      0.08       443
-    
+
         accuracy                           0.84      2874
        macro avg       0.60      0.51      0.50      2874
     weighted avg       0.77      0.84      0.78      2874
-    
-    
+
+
 
 
 ```python
@@ -943,15 +947,15 @@ print(cr(y_test,pred))
 ```
 
                   precision    recall  f1-score   support
-    
+
                0       0.85      0.82      0.84      2431
                1       0.19      0.23      0.21       443
-    
+
         accuracy                           0.73      2874
        macro avg       0.52      0.53      0.52      2874
     weighted avg       0.75      0.73      0.74      2874
-    
-    
+
+
 
 **Show the Confusion Matrix for the predictions.**
 
@@ -962,7 +966,7 @@ print(cm(y_test,pred_rfc))
 
     [[2394   37]
      [ 423   20]]
-    
+
 
 
 ```python
@@ -971,7 +975,7 @@ print(cm(y_test,pred))
 
     [[1996  435]
      [ 341  102]]
-    
+
 
 **What performed better the random forest or the decision tree?**
 
