@@ -1,4 +1,11 @@
-# K Nearest Neighbors Project 
+---
+title: "KNN Exercise Project"
+data: 2020-02-03
+tags: [python,  k-nearest neighbor, exploratory data analysis, machine learning, classification, supervised leaning]
+header:
+excerpt: "KNN Exercise"
+mathjax: "true"
+---
 
 Welcome to the KNN Project! This will be a simple project very similar to the lecture, except you'll be given another data set. Go ahead and just follow the directions below.
 ## Import Libraries
@@ -154,7 +161,7 @@ sns.pairplot(data=df,hue='TARGET CLASS')
       binned = fast_linbin(X, a, b, gridsize) / (delta * nobs)
     C:\Users\User\Anaconda3\lib\site-packages\statsmodels\nonparametric\kdetools.py:34: RuntimeWarning: invalid value encountered in double_scalars
       FAC1 = 2*(np.pi*bw/RANGE)**2
-    
+
 
 
 
@@ -164,7 +171,7 @@ sns.pairplot(data=df,hue='TARGET CLASS')
 
 
 
-![png](output_7_2.png)
+![png](/images/output_7_2.png)
 
 
 # Standardize the Variables
@@ -631,7 +638,7 @@ print(cm(y_test,pred))
 
     [[109  43]
      [ 41 107]]
-    
+
 
 
 ```python
@@ -639,15 +646,15 @@ print(cr(y_test,pred))
 ```
 
                   precision    recall  f1-score   support
-    
+
                0       0.73      0.72      0.72       152
                1       0.71      0.72      0.72       148
-    
+
         accuracy                           0.72       300
        macro avg       0.72      0.72      0.72       300
     weighted avg       0.72      0.72      0.72       300
-    
-    
+
+
 
 # Choosing a K Value
 Let's go ahead and use the elbow method to pick a good K Value!
@@ -683,7 +690,7 @@ plt.plot(range(1,60),error_rate,marker='o',markerfacecolor='red',markersize=10)
 
 
 
-![png](output_40_1.png)
+![png](/images/output_40_1.png)
 
 
 
@@ -776,7 +783,7 @@ pred2 = knn2.predict(X_test)
 
 print('with k =',n_neighbors)
 print('\n')
-from sklearn.metrics import confusion_matrix 
+from sklearn.metrics import confusion_matrix
 def plot_cm(y_true, predictions, figsize=(5,4)):
     cm = confusion_matrix(y_test, pred2, labels=np.unique(y_true))
     cm_sum = np.sum(cm, axis=1, keepdims=True)
@@ -799,7 +806,7 @@ def plot_cm(y_true, predictions, figsize=(5,4)):
     cm.columns.name = 'Predicted'
     fig, ax = plt.subplots(figsize=figsize)
     annot_kws = {"ha": 'left',"va": 'bottom'}
-    
+
     ae = sns.heatmap(cm, cmap= "YlGnBu", annot=annot,fmt='', ax=ax)
     bottom, top = ae.get_ylim()
     ae.set_ylim(bottom + 0.5, top - 0.5)
@@ -812,12 +819,12 @@ plt.tight_layout()
 ```
 
     with k = 39
-    
-    
-    
 
 
-![png](output_43_1.png)
+
+
+
+![png](/images/output_43_1.png)
 
 
 
@@ -826,14 +833,14 @@ print(cr(y_test,pred2))
 ```
 
                   precision    recall  f1-score   support
-    
+
                0       0.86      0.82      0.84       152
                1       0.82      0.86      0.84       148
-    
+
         accuracy                           0.84       300
        macro avg       0.84      0.84      0.84       300
     weighted avg       0.84      0.84      0.84       300
-    
-    
+
+
 
 # Great Job!
