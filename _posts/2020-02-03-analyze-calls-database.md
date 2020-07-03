@@ -1,7 +1,7 @@
 ---
 title: "911 Calls Capstone Project"
 data: 2020-02-03
-tags: [python, 911 calls, exploratory data analysis]
+tags: [python, exploratory data analysis]
 header:
 excerpt: "Analyzing Some 911 Call Data From Kaggle"
 mathjax: "true"
