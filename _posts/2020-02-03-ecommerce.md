@@ -293,7 +293,7 @@ sns.jointplot(x=customers['Time on Website'],annot_kws=True,y=customers['Yearly 
 
 
 
-![png](output_10_1.png)
+![png](/images/output_10_1.png)
 
 
 ** Do the same but with the Time on App column instead. **
@@ -311,7 +311,7 @@ sns.jointplot(x=customers['Time on App'],annot_kws=True,y=customers['Yearly Amou
 
 
 
-![png](output_12_1.png)
+![png](/images/output_12_1.png)
 
 
 ** Use jointplot to create a 2D hex bin plot comparing Time on App and Length of Membership.**
@@ -329,7 +329,7 @@ sns.jointplot(x=customers['Time on Website'],kind='hex',y=customers['Length of M
 
 
 
-![png](output_14_1.png)
+![png](/images/output_14_1.png)
 
 
 **Let's explore these types of relationships across the entire data set. Use [pairplot](https://stanford.edu/~mwaskom/software/seaborn/tutorial/axis_grids.html#plotting-pairwise-relationships-with-pairgrid-and-pairplot) to recreate the plot below.(Don't worry about the the colors)**
@@ -347,7 +347,7 @@ sns.pairplot(data=customers)
 
 
 
-![png](output_16_1.png)
+![png](/images/output_16_1.png)
 
 
 **Based off this plot what looks to be the most correlated feature with Yearly Amount Spent?**
@@ -370,7 +370,7 @@ sns.heatmap(customers.corr(),annot=True)
 
 
 
-![png](output_19_1.png)
+![png](/images/output_19_1.png)
 
 
 Yearly Amount Spent and Length of Membership
@@ -390,7 +390,7 @@ sns.lmplot(data=customers, x='Length of Membership',aspect=2,y='Yearly Amount Sp
 
 
 
-![png](output_22_1.png)
+![png](/images/output_22_1.png)
 
 
 ## Training and Testing Data
@@ -546,7 +546,7 @@ plt.ylabel('Predicted Y')
 
 
 
-![png](output_40_1.png)
+![png](/images/output_40_1.png)
 
 
 ## Evaluating the Model
@@ -591,7 +591,7 @@ sns.distplot((y_test-y_pred),bins=50)
 
 
 
-![png](output_44_1.png)
+![png](/images/output_44_1.png)
 
 
 ## Conclusion
