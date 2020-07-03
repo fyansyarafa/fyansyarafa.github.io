@@ -1,3 +1,12 @@
+---
+title: "Analyzing Ecommerce Company"
+data: 2020-02-03
+tags: [python, linear regression, exploratory data analysis, machine learning]
+header:
+excerpt: "Giving Ecommerce company an analysis about whether to focus their efforts on their mobile app experience or their website"
+mathjax: "true"
+---
+
 # Linear Regression Project
 
 Congratulations! You just got some contract work with an Ecommerce company based in New York City that sells clothing online but they also have in-store style and clothing advice sessions. Customers come in to the store, have sessions/meetings with a personal stylist, then they can go home and order either on a mobile app or website for the clothes they want.
@@ -7,7 +16,7 @@ The company is trying to decide whether to focus their efforts on their mobile a
 Just follow the steps below to analyze the customer data (it's fake, don't worry I didn't give you real credit card numbers or emails).
 
 ## Imports
-** Import pandas, numpy, matplotlib,and seaborn. Then set %matplotlib inline 
+** Import pandas, numpy, matplotlib,and seaborn. Then set %matplotlib inline
 (You'll import sklearn as you need it.)**
 
 
@@ -29,7 +38,7 @@ We'll work with the Ecommerce Customers csv file from the company. It has Custom
 * Avg. Session Length: Average session of in-store style advice sessions.
 * Time on App: Average time spent on App in minutes
 * Time on Website: Average time spent on Website in minutes
-* Length of Membership: How many years the customer has been a member. 
+* Length of Membership: How many years the customer has been a member.
 
 ** Read in the Ecommerce Customers csv file as a DataFrame called customers.**
 
@@ -156,7 +165,7 @@ customers.info()
     Yearly Amount Spent     500 non-null float64
     dtypes: float64(5), object(3)
     memory usage: 31.3+ KB
-    
+
 
 
 ```python
@@ -460,7 +469,7 @@ customers.columns
 
 
 ```python
-X = customers[['Avg. Session Length', 'Time on App', 'Time on Website', 'Length of Membership']] 
+X = customers[['Avg. Session Length', 'Time on App', 'Time on Website', 'Length of Membership']]
 ```
 
 
@@ -510,7 +519,7 @@ print(lm.coef_)
 ```
 
     [25.98154972 38.59015875  0.19040528 61.27909654]
-    
+
 
 ## Predicting Test Data
 Now that we have fit our model, let's evaluate its performance by predicting off the test values!
@@ -562,11 +571,11 @@ print('R^2 :',metrics.explained_variance_score(y_test,y_pred))
     MSE : 79.81305165097487
     RMSE : 8.933815066978656
     R^2 : 0.9890771231889606
-    
+
 
 ## Residuals
 
-You should have gotten a very good model with a good fit. Let's quickly explore the residuals to make sure everything was okay with our data. 
+You should have gotten a very good model with a good fit. Let's quickly explore the residuals to make sure everything was okay with our data.
 
 **Plot a histogram of the residuals and make sure it looks normally distributed. Use either seaborn distplot, or just plt.hist().**
 
