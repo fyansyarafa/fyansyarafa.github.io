@@ -756,7 +756,7 @@ sns.pairplot(returns[1:])
 
 
 
-![png](output_20_1.png)
+![png](images/output_20_1.png)
 
 
 * See solution for details about Citigroup behavior....
@@ -1046,7 +1046,7 @@ sns.distplot(returns['GS Return'][1:].ix['2015-01-01':'2015-12-31'])
 
 
 
-![png](output_37_2.png)
+![png](images/output_37_2.png)
 
 
 ** Create a distplot using seaborn of the 2008 returns for CitiGroup **
@@ -1074,7 +1074,7 @@ sns.distplot(returns['C Return'][1:].ix['2008-01-01':'2008-12-31'])
 
 
 
-![png](output_39_2.png)
+![png](images/output_39_2.png)
 
 
 ____
@@ -1133,7 +1133,7 @@ plt.legend()
 
 
 
-![png](output_43_1.png)
+![png](images/output_43_1.png)
 
 
 
@@ -1149,7 +1149,7 @@ bank_stocks.xs(key='Close',axis=1,level='Stock Info').plot(figsize=(12,4))
 
 
 
-![png](output_44_1.png)
+![png](images/output_44_1.png)
 
 
 
@@ -1191,10 +1191,10 @@ if (notebookContainer) {{
     x.observe(notebookContainer, {childList: true});
 }}
 
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
+// Listen for the clearing of the current images/output cell
+var images/outputEl = gd.closest('.images/output');
+if (images/outputEl) {{
+    x.observe(images/outputEl, {childList: true});
 }}
 
                         })
@@ -1343,7 +1343,7 @@ plt.legend()
 
 
 
-![png](output_48_2.png)
+![png](images/output_48_2.png)
 
 
 ** Create a heatmap of the correlation between the stocks Close Price.**
@@ -1363,7 +1363,7 @@ sns.heatmap(bank_stocks.xs(key='Close',axis='columns',level='Stock Info').corr()
 
 
 
-![png](output_50_1.png)
+![png](images/output_50_1.png)
 
 
 ** Optional: Use seaborn's clustermap to cluster the correlations together:**
@@ -1381,7 +1381,7 @@ sns.clustermap(bank_stocks.xs(key='Close',axis='columns',level='Stock Info').cor
 
 
 
-![png](output_52_1.png)
+![png](images/output_52_1.png)
 
 
 
@@ -1424,10 +1424,10 @@ if (notebookContainer) {{
     x.observe(notebookContainer, {childList: true});
 }}
 
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
+// Listen for the clearing of the current images/output cell
+var images/outputEl = gd.closest('.images/output');
+if (images/outputEl) {{
+    x.observe(images/outputEl, {childList: true});
 }}
 
                         })
@@ -1593,10 +1593,10 @@ if (notebookContainer) {{
     x.observe(notebookContainer, {childList: true});
 }}
 
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
+// Listen for the clearing of the current images/output cell
+var images/outputEl = gd.closest('.images/output');
+if (images/outputEl) {{
+    x.observe(images/outputEl, {childList: true});
 }}
 
                         })
@@ -1660,10 +1660,10 @@ if (notebookContainer) {{
     x.observe(notebookContainer, {childList: true});
 }}
 
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
+// Listen for the clearing of the current images/output cell
+var images/outputEl = gd.closest('.images/output');
+if (images/outputEl) {{
+    x.observe(images/outputEl, {childList: true});
 }}
 
                         })
@@ -1756,10 +1756,10 @@ if (notebookContainer) {{
     x.observe(notebookContainer, {childList: true});
 }}
 
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
+// Listen for the clearing of the current images/output cell
+var images/outputEl = gd.closest('.images/output');
+if (images/outputEl) {{
+    x.observe(images/outputEl, {childList: true});
 }}
 
                         })
