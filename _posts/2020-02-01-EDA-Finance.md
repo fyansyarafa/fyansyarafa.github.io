@@ -1,9 +1,9 @@
 ---
-title: "Finance Data Project "
+title: "Pandas dfdfData Visualization Exercise"
 data: 2020-02-01
-tags: [exercise, data visualization, finance, exploratory data analysis]
+tags: [python, pandas]
 header:
-excerpt: "EDA Finance Portofolio"
+excerpt: "Pandas Portofodflio"
 mathjax: "true"
 ---
 
