@@ -194,7 +194,7 @@ sns.heatmap(ad_data.isnull())
 
 
 
-![png](output_8_1.png)
+![png](/images/output_8_1.png)
 
 
 
@@ -333,7 +333,7 @@ sns.distplot(ad_data['Age'],kde=True,bins=30)
 
 
 
-![png](output_11_1.png)
+![png](/images/output_11_1.png)
 
 
 **Create a jointplot showing Area Income versus Age.**
@@ -351,7 +351,7 @@ sns.jointplot(data=ad_data,x='Age',y='Area Income',s=12)
 
 
 
-![png](output_13_1.png)
+![png](/images/output_13_1.png)
 
 
 **Create a jointplot showing the kde distributions of Daily Time spent on site vs. Age.**
@@ -369,7 +369,7 @@ sns.jointplot(data=ad_data,x='Age',y='Daily Time Spent on Site',height=6,kind='k
 
 
 
-![png](output_15_1.png)
+![png](/images/output_15_1.png)
 
 
 ** Create a jointplot of 'Daily Time Spent on Site' vs. 'Daily Internet Usage'**
@@ -387,7 +387,7 @@ sns.jointplot(data=ad_data,x='Daily Time Spent on Site',y='Daily Internet Usage'
 
 
 
-![png](output_17_1.png)
+![png](/images/output_17_1.png)
 
 
 ** Finally, create a pairplot with the hue defined by the 'Clicked on Ad' column feature.**
@@ -405,7 +405,7 @@ sns.pairplot(data=ad_data,hue='Clicked on Ad')
 
 
 
-![png](output_19_1.png)
+![png](/images/output_19_1.png)
 
 
 # Logistic Regression
@@ -1143,7 +1143,7 @@ plt.tight_layout()
 
 
 
-![png](output_40_1.png)
+![png](/images/output_40_1.png)
 
 
 ## Great Job!
