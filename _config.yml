@@ -248,6 +248,7 @@ tag_archive:
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
+  enabled: all
   enabled:
    - categories
    - tags
