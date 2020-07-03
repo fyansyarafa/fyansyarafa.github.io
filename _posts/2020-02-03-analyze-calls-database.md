@@ -1,4 +1,12 @@
-# 911 Calls Capstone Project
+---
+title: "911 Calls Capstone Project"
+data: 2020-02-03
+tags: [test]
+header:
+excerpt: "cals Portofolio"
+mathjax: "true"
+---
+
 
 For this capstone project we will be analyzing some 911 call data from [Kaggle](https://www.kaggle.com/mchirico/montcoalert). The data contains the following fields:
 
@@ -61,7 +69,7 @@ df.info()
     e            99492 non-null int64
     dtypes: float64(3), int64(1), object(5)
     memory usage: 6.8+ MB
-    
+
 
 ** Check the head of df **
 
@@ -201,7 +209,7 @@ df['title'].nunique()
 
 ## Creating new features
 
-** In the titles column there are "Reasons/Departments" specified before the title code. These are EMS, Fire, and Traffic. Use .apply() with a custom lambda expression to create a new column called "Reason" that contains this string value.** 
+** In the titles column there are "Reasons/Departments" specified before the title code. These are EMS, Fire, and Traffic. Use .apply() with a custom lambda expression to create a new column called "Reason" that contains this string value.**
 
 **For example, if the title column value is EMS: BACK PAINS/INJURY , the Reason column value would be EMS. **
 
@@ -348,7 +356,7 @@ sns.countplot(df['Reason'])
 
 
 
-![png](output_27_1.png)
+![png](images/output_27_1.png)
 
 
 ___
@@ -617,7 +625,7 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 
 
 
-![png](output_42_1.png)
+![png](images/output_42_1.png)
 
 
 **Now do the same for Month:**
@@ -636,7 +644,7 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 
 
 
-![png](output_44_1.png)
+![png](images/output_44_1.png)
 
 
 **Did you notice something strange about the Plot?**
@@ -885,7 +893,7 @@ bymonth['lat'].plot()
 
 
 
-![png](output_52_1.png)
+![png](images/output_52_1.png)
 
 
 
@@ -895,7 +903,7 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 ```
 
     No handles with labels found to put in legend.
-    
+
 
 
 
@@ -905,7 +913,7 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 
 
 
-![png](output_53_2.png)
+![png](images/output_53_2.png)
 
 
 ** Now see if you can use seaborn's lmplot() to create a linear fit on the number of calls per month. Keep in mind you may need to reset the index to a column. **
@@ -928,10 +936,10 @@ sns.lmplot(x='Month',y='twp',data=bymonth.reset_index())
 
 
 
-![png](output_56_1.png)
+![png](images/output_56_1.png)
 
 
-**Create a new column called 'Date' that contains the date from the timeStamp column. You'll need to use apply along with the .date() method. ** 
+**Create a new column called 'Date' that contains the date from the timeStamp column. You'll need to use apply along with the .date() method. **
 
 
 ```python
@@ -1058,10 +1066,10 @@ plt.tight_layout()
 
     C:\Users\User\Anaconda3\lib\site-packages\matplotlib\figure.py:2267: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
       warnings.warn("This figure includes Axes that are not compatible "
-    
 
 
-![png](output_61_1.png)
+
+![png](images/output_61_1.png)
 
 
 ** Now recreate this plot but create 3 separate plots with each plot representing a Reason for the 911 call**
@@ -1084,7 +1092,7 @@ plt.title('Traffic')
 
     C:\Users\User\Anaconda3\lib\site-packages\matplotlib\figure.py:2267: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
       warnings.warn("This figure includes Axes that are not compatible "
-    
+
 
 
 
@@ -1094,7 +1102,7 @@ plt.title('Traffic')
 
 
 
-![png](output_64_2.png)
+![png](images/output_64_2.png)
 
 
 
@@ -1110,7 +1118,7 @@ plt.title('Fire')
 
     C:\Users\User\Anaconda3\lib\site-packages\matplotlib\figure.py:2267: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
       warnings.warn("This figure includes Axes that are not compatible "
-    
+
 
 
 
@@ -1120,7 +1128,7 @@ plt.title('Fire')
 
 
 
-![png](output_65_2.png)
+![png](images/output_65_2.png)
 
 
 
@@ -1136,7 +1144,7 @@ plt.title('EMS')
 
     C:\Users\User\Anaconda3\lib\site-packages\matplotlib\figure.py:2267: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
       warnings.warn("This figure includes Axes that are not compatible "
-    
+
 
 
 
@@ -1146,7 +1154,7 @@ plt.title('EMS')
 
 
 
-![png](output_66_2.png)
+![png](images/output_66_2.png)
 
 
 ____
@@ -1413,7 +1421,7 @@ plt.tight_layout()
 ```
 
 
-![png](output_70_0.png)
+![png](images/output_70_0.png)
 
 
 ** Now create a clustermap using this DataFrame. **
@@ -1427,14 +1435,14 @@ plt.tight_layout()
 
     C:\Users\User\Anaconda3\lib\site-packages\matplotlib\figure.py:2267: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
       warnings.warn("This figure includes Axes that are not compatible "
-    
+
 
 
     <Figure size 720x432 with 0 Axes>
 
 
 
-![png](output_72_2.png)
+![png](images/output_72_2.png)
 
 
 ** Now repeat these same plots and operations, for a DataFrame that shows the Month as the column. **
@@ -1594,7 +1602,7 @@ sns.heatmap(inmonth)
 
 
 
-![png](output_75_1.png)
+![png](images/output_75_1.png)
 
 
 
@@ -1610,7 +1618,7 @@ sns.clustermap(inmonth)
 
 
 
-![png](output_76_1.png)
+![png](images/output_76_1.png)
 
 
 **Continue exploring the Data however you see fit!**
