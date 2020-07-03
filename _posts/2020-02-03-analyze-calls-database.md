@@ -1,9 +1,9 @@
 ---
 title: "911 Calls Capstone Project"
 data: 2020-02-03
-tags: [test]
+tags: [python, 911 calls, exploratory data analysis]
 header:
-excerpt: "cals Portofolio"
+excerpt: "Calls Portofolio"
 mathjax: "true"
 ---
 
