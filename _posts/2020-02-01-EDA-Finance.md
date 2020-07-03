@@ -1,6 +1,6 @@
 ---
 title: "Pandas dfdfData Visualization Exercise"
-data: 2020-02-01
+data: 2020-02-02
 tags: [python, pandas]
 header:
 excerpt: "Pandas Portofodflio"
