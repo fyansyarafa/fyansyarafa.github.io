@@ -50,7 +50,7 @@ sns.heatmap(df.isnull())
 
 
 
-![png](/aste/output_2_1.png)
+![png](\images\aste\output_2_1.png)
 
 
 Terdapat *null values* pada kolom mass, year, reclat, reclong, dan Geolocation
@@ -217,7 +217,7 @@ sns.pairplot(df2[['mass', 'year', 'reclat', 'reclong']])
 
 
 
-![png](/aste/output_9_1.png)
+![png](/images/aste/output_9_1.png)
 
 
 Konversi mass ke log agar lebih mudah dilihat distribusinya
@@ -231,7 +231,7 @@ a=sns.distplot(logmass, bins=100, kde=False);
 ```
 
 
-![png](/aste/output_11_0.png)
+![png](/images/aste/output_11_0.png)
 
 
 
@@ -251,7 +251,7 @@ axes[1].set_title("Sesudah");
 
 
 
-![png](/aste/output_12_1.png)
+![png](/images/aste/output_12_1.png)
 
 
 ### Peristiwa berdasarkan tahun (1980-2020)
@@ -273,7 +273,7 @@ plt.ylabel("")
 
 
 
-![png](/aste/output_14_1.png)
+![png](/images/aste/output_14_1.png)
 
 
 
@@ -324,7 +324,7 @@ plt.legend();
 ```
 
 
-![png](/aste/output_17_0.png)
+![png](/images/aste/output_17_0.png)
 
 
 Skewnorm dan Lognorm lebih mendekati data daripada normal dist. Tetapi, akan diproses dengan pendekatan lognorm dist
@@ -350,7 +350,7 @@ plt.title("Log probability asteroid dengan mass yang diberikan");
 ```
 
 
-![png](/aste/output_20_0.png)
+![png](/images/aste/output_20_0.png)
 
 
 ## Menghitung Probabilitas
