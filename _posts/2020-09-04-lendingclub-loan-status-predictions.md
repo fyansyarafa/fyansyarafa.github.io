@@ -2711,7 +2711,7 @@ X_train.shape
 
 
 ```python
-# CODE HERE
+
 model = Sequential()
 
 model.add(Dense(78, activation='relu'))
