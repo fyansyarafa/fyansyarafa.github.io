@@ -3,7 +3,7 @@ title: "Membuat Model Prediktif terhadap Peminjam Gagal Bayar atau Berhasil Memb
 data: 2020-09-04
 tags: [python,  exploratory data analysis, statistics, probability, deep learning, artificial neural network]
 header:
-excerpt: "Melakukan perdiksi status pinjaman: gagal bayar atau tidak"
+excerpt: ""
 mathjax: "true"
 ---
 
@@ -541,7 +541,7 @@ plt.xlabel('Loan Status');
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_23_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_23_0.png)
 
 
 
@@ -593,7 +593,7 @@ plt.ylabel('count');
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_28_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_28_0.png)
 
 
 Terlihat bahwa pinjaman dengan amount 10000 dolar lebih banyak daripada jumlah pinjaman lainnya, dengan total customer yang meminjam nominal tersebut berada di sekitar 35000 orang.
@@ -616,7 +616,7 @@ plt.legend();
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_30_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_30_0.png)
 
 
 Terlihat bahwa:
@@ -870,7 +870,7 @@ plt.title('Matriks korelasi untuk variabel-variabel numerik');
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_35_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_35_0.png)
 
 
 Dari heatmap korelasi tersebut, variabel yang paling dominan yang mempengaruhi `loan_amnt` adalah `installment`. Keduanya merberkorelasi dengan arah positif. Artinya bahwa peningkatan jumlah `loan_amnt` berbanding lurus dengan peningkatan cicilan bulanan (`installment`) atau sebaliknya.
@@ -907,7 +907,7 @@ plt.ylabel('Loan Amount');
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_42_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_42_0.png)
 
 
 Terlihat, bahwa semakin besar `installment`, maka akan semakin besar total pinjaman pada variable `loan_amnt`.
@@ -1000,7 +1000,7 @@ plt.ylabel('Loan Amount');
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_47_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_47_0.png)
 
 
 Nampak dari kedua boxplot tersebut per status loan mereka, sepertinya 50% dari jumlah customer dari kedua status tersebut hampir mirip. Tetapi, customer dengan status `Charged Off` sedikit lebih tinggi dibanding `Fully Paid`. Hal ini menunjukkan bahwa semakin besar jumlah pinjaman, maka pembayarannya juga menjadi semakin berat hingga bersatus `Charged Off`.
@@ -1149,7 +1149,7 @@ plt.xlabel('Grade');
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_60_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_60_0.png)
 
 
 Untuk melihat performansi masing masing grade, akan dilihat dari rasio antara jumlah customer yang berstatus `Charged Off` terhadap `Fully Paid ` perGradenya. Semakin kecil, semakin bagus:
@@ -1174,7 +1174,7 @@ plt.legend().set_visible(False);
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_62_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_62_0.png)
 
 
 
@@ -1200,7 +1200,7 @@ sns.countplot(x='sub_grade', data=df, order=subgrade_order, palette='coolwarm');
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_66_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_66_0.png)
 
 
 Secara detail persubgrade, semakin biru warna yang diberikan, maka semakin baik performanya. Hal tersebut mengacu pada rasio `Charged Off` terhadap `Fully Paid`. Jika didetailkan lagi dengan jenis-jenis loan_status:
@@ -1213,7 +1213,7 @@ sns.countplot(x='sub_grade', data=df, order=subgrade_order, palette='coolwarm', 
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_68_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_68_0.png)
 
 
 Lebih detail, dapat dilihat bahwa performa dari subgroup dapat ditentukan dari besaran nilai rasio `Charged Off` terhadap `Fully Paid`. Semakin kecil rasionya, maka akan semakin baik performansinya. Hal ini juga berlaku sebaliknya.
@@ -1230,7 +1230,7 @@ sns.countplot(x='sub_grade', data=df, order=subgrade_order, palette='coolwarm', 
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_71_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_71_0.png)
 
 
 Sangat jelas terlihat bahwa pada subgroup-subgroup tersebut memiliki tingkat jumlah customer gagal bayar dan yang tidak memiki kesamaan yang tinggi dengan rasio kesamaan yang tinggi.
@@ -1341,7 +1341,7 @@ df.corr()['loan_repaid'].sort_values().drop('loan_repaid').plot(kind='bar');
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_77_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_77_0.png)
 
 
 Terlihat bahwa `int_rate` memiliki nilai korelasi tertinggi dengan arah negatif. Menunjukkan bahwa semakin kecil `int_rate`, maka akan semakin tinggi kemungkinan peminjaman dilunasi. Berlaku pula sebaliknya.
@@ -1834,7 +1834,7 @@ sns.countplot(x='emp_length', data=df, order=emp_length_order);
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_102_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_102_0.png)
 
 
 Dari barplot tersebut, dapat diketahui sebagian besar peminjam memiliki durasi bekerja selama 10 tahun lebih.
@@ -1848,7 +1848,7 @@ sns.countplot(x='emp_length', data=df, order=emp_length_order, hue='loan_status'
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_105_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_105_0.png)
 
 
 **Berapa probabilitas kemungkinan peminjam dengan beberapa durasi kerja di atas dapat berstatus charged-off?**
@@ -1930,7 +1930,7 @@ emp_len.plot(kind= 'bar');
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_110_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_110_0.png)
 
 
 Melihat dari data yang dimiliki dan dari barplot di atas, peminjam memiliki probabilitas sekitar 20% dari mereka berstatus `Charged Off` dikarenakan mereka tidak melunasi pinjaman mereka.
@@ -2814,7 +2814,7 @@ loss.plot();
 ```
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_202_0.png)
+![png](/images/lending/03_Keras_Project_Exercise_202_0.png)
 
 
 Tampak terjadi sedikit overfitting karena loss training lebih rendah daripada loss pada training.
@@ -2881,7 +2881,7 @@ sns.countplot(x='loan_repaid', data=df)
 
 
 
-![png](03_Keras_Project_Exercise_files/03_Keras_Project_Exercise_210_1.png)
+![png](/images/lending/03_Keras_Project_Exercise_210_1.png)
 
 
 Sebenarnya, terdapat ketidakseimbangan data dari masing-masing kategori.
