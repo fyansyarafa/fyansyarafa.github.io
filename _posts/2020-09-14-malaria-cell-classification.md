@@ -453,21 +453,14 @@ Fit model ke `train_image` gen dengan inisialisasi epoch sebanyak 20, validasi b
 
 
 ```
-#malaria_model = model.fit_generator(train_image_gen,
+malaria_model = model.fit_generator(train_image_gen,
                                     epochs=20,
                                     validation_data=(test_image_gen),
                                     callbacks=[early_stop])
 ```
 
 
-```
-from tensorflow.keras.models import load_model
-```
 
-
-```
-malaria_model = load_model('/content/drive/My Drive/Colab Notebooks/CNN/malaria_detector.h5')
-```
 
 # Model Evaluation
 
