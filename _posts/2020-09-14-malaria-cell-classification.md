@@ -7,7 +7,7 @@ header:
 excerpt: ""
 mathjax: "true"
 toc: true
-toc_sticky: true
+toc_sticky: false
 ---
 
 
