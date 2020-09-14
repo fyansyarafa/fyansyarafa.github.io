@@ -5,6 +5,7 @@ tags: [python,  exploratory data analysis, statistics, probability, deep learnin
 header:
 excerpt: ""
 mathjax: "true"
+toc: true
 ---
 
 
