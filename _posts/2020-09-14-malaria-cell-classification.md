@@ -1,11 +1,12 @@
 ---
-{% include toc %}
+
 title: "Klasifikasi Infeksi Malaria pada Sel dengan Metode Convolutional Neural Network"
 data: 2020-09-14
 tags: [python,  exploratory data analysis, probability, deep learning, artificial neural network, convolutional neural network, malaria]
 header:
 excerpt: ""
 mathjax: "true"
+
 ---
 
 
