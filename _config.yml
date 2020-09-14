@@ -1,8 +1,4 @@
----
-toc: true
-toc_label: "My Table of Contents"
-toc_icon: "cog"
----
+
 
 # Welcome to Jekyll!
 #
@@ -204,11 +200,8 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-<<<<<<< HEAD
 
-=======
-  toc: true
->>>>>>> 747acc59f741c537c7dced652a2794a47dc9a818
+
 
 # Sass/SCSS
 sass:
