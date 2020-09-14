@@ -1,4 +1,8 @@
-
+---
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
+---
 
 # Welcome to Jekyll!
 #
@@ -193,7 +197,6 @@ incremental: false
 # Markdown Processing
 kramdown:
   input: GFM
-  toc: true
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
@@ -201,7 +204,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
 
 
 # Sass/SCSS
