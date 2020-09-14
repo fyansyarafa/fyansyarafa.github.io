@@ -34,3 +34,7 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
