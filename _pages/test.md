@@ -4,7 +4,7 @@ permalink: /projects/
 title: "Projects by tags"
 author_profile: true
 header:
-
+  image: /images/header.PNG
 ---
 
 
