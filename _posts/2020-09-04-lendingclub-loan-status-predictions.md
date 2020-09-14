@@ -1,7 +1,7 @@
 ---
 title: "Membuat Model Prediktif terhadap Peminjam Gagal Bayar atau Berhasil Membayar Kembali Pinjaman dengan Artificial Neural Network"
 data: 2020-09-04
-tags: [python,  exploratory data analysis, statistics, probability, deep learning, artificial neural network]
+tags: [python,  exploratory data analysis, statistics, probability, deep learning, artificial neural network, classification]
 header:
 excerpt: ""
 mathjax: "true"
