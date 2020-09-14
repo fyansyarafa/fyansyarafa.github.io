@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archived
 permalink: /projects/
 title: "Projects by tags"
 author_profile: true
