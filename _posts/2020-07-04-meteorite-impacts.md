@@ -3,7 +3,7 @@ title: "Meteorite Impacts"
 data: 2020-07-04
 tags: [python,  exploratory data analysis, statistics, probability]
 header:
- image: '/images/meter.jpg'
+ teaser: '/images/meter.jpg'
 excerpt: "Memprediksi apakah ada kemungkinan dalam 1000 tahun, sebuah meteor besar berdiameter >= 1km akan menghantam bumi?"
 mathjax: "true"
 ---
