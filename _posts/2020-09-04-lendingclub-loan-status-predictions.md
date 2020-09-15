@@ -3,9 +3,11 @@ title: "Membuat Model Prediktif terhadap Peminjam Gagal Bayar atau Berhasil Memb
 data: 2020-09-04
 tags: [python,  exploratory data analysis, statistics, probability, deep learning, artificial neural network, classification]
 header:
+  teaser: '/images/lending/teaser.png'
 excerpt: ""
 mathjax: "true"
 toc: true
+
 ---
 
 
