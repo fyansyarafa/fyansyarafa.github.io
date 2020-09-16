@@ -2667,7 +2667,7 @@ y = df['loan_repaid'].values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=101)
 ```
 
-## Normalisasi Data
+## Data Normalization
 
 **TASK: Karena inputan harus memiliki ukuran range yang sama untuk setiap fitur kolomnya, maka data X_train dan X_test harus dinormalisasi. Akan dilakukan MinMaxScaler yang diimport dari sklean.preprocessing**
 
