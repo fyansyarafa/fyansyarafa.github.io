@@ -307,8 +307,3 @@ defaults:
       comments:  false
       related: true
       show_date: true
-
-collections:
-  blogp:
-    output: true
-    permalink: /:collection/:title/
