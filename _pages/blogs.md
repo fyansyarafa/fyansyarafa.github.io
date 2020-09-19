@@ -7,10 +7,13 @@ header:
   image: /images/header.PNG
 search: true
 ---
-<ul>
-  {% for post in site._posts.notebooks %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+
+{% include group-by-array collection=site.posts field="tags" %}
+
+{% for tag in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+  {% for post in posts %}
+    {% include archive-single.html %}
   {% endfor %}
-</ul>
+{% endfor %}
