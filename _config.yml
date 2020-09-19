@@ -307,6 +307,7 @@ defaults:
       comments:  false
       related: true
       show_date: true
+      show_tags: false
 
 collections:
   blogp:
