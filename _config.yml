@@ -301,8 +301,12 @@ defaults:
       type: blogp
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
+      read_time: true
+      comments:  false
+      related: true
+      show_date: true
 
 collections:
   blogp:
