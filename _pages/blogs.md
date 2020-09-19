@@ -8,7 +8,7 @@ header:
 search: true
 ---
 <ul>
-  {% for post in "/posts/notebooks" %}
+  {% for post in site._posts.notebooks %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
