@@ -1,4 +1,5 @@
 ---
+permalink: /projects/:title
 title: "Ecommerce Purchases Exercise"
 data: 2020-02-01
 tags: [python, pandas]
@@ -136,7 +137,7 @@ ecom.info()
     Purchase Price      10000 non-null float64
     dtypes: float64(1), int64(2), object(11)
     memory usage: 1.1+ MB
-    
+
 
 ** What is the average Purchase Price? **
 
@@ -233,7 +234,7 @@ ecom[ecom['Job']=='Lawyer'].info()
     Purchase Price      30 non-null float64
     dtypes: float64(1), int64(2), object(11)
     memory usage: 3.5+ KB
-    
+
 
 ** How many people made the purchase during the AM and how many people made the purchase during PM ? **
 

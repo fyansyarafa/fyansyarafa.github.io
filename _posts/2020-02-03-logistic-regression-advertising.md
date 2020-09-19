@@ -1,4 +1,5 @@
 ---
+permalink: /projects/:title
 title: "Advertising Analysis"
 data: 2020-02-03
 tags: [python, logistic regression, exploratory data analysis, machine learning, classification, supervised leaning]

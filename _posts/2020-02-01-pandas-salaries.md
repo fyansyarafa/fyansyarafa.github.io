@@ -1,4 +1,5 @@
 ---
+permalink: /projects/:title
 title: "SF Salaries Exercise"
 data: 2020-02-01
 tags: [python, pandas]
@@ -178,7 +179,7 @@ sal.info()
     Status              0 non-null float64
     dtypes: float64(8), int64(2), object(3)
     memory usage: 14.7+ MB
-    
+
 
 **What is the average BasePay ?**
 
@@ -514,7 +515,7 @@ def chief_string(title):
         return True
     else:
         return False
-    
+
 ```
 
 

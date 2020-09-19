@@ -1,4 +1,5 @@
 ---
+permalink: /projects/:title
 title: "Seaborn Excercise"
 data: 2020-02-01
 tags: [python, matplotlib, data visualization, seaborn]
@@ -185,7 +186,7 @@ sns.jointplot(x='fare',y='age',data=titanic)
       warnings.warn("The 'normed' kwarg is deprecated, and has been "
     C:\Users\User\Anaconda3\lib\site-packages\matplotlib\axes\_axes.py:6462: UserWarning: The 'normed' kwarg is deprecated, and has been replaced by the 'density' kwarg.
       warnings.warn("The 'normed' kwarg is deprecated, and has been "
-    
+
 
 
 
@@ -222,7 +223,7 @@ sns.distplot(titanic['fare'],kde=False,color='red')
 
     C:\Users\User\Anaconda3\lib\site-packages\matplotlib\axes\_axes.py:6462: UserWarning: The 'normed' kwarg is deprecated, and has been replaced by the 'density' kwarg.
       warnings.warn("The 'normed' kwarg is deprecated, and has been "
-    
+
 
 
 

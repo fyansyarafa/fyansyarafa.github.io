@@ -1,4 +1,5 @@
 ---
+permalink: /projects/:title
 title: "KNN Exercise Project"
 data: 2020-02-03
 tags: [python,  k-nearest neighbor, exploratory data analysis, machine learning, classification, supervised leaning]
