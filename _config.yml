@@ -294,3 +294,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+  # _blog
+  - scope:
+      path: ""
+      type: blogp
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+collections:
+  blogp:
+    output: true
+    permalink: /:collection/:title/
