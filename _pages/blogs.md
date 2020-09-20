@@ -7,8 +7,5 @@ collection: blogs
 
 
 {% for post in site.blogp %}
-  
-  {% for post in site.blogp %}
-    {% include archive-single.html %}
-  {% endfor %}
+  {% include archive-single.html %}
 {% endfor %}
