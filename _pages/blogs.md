@@ -7,10 +7,9 @@ author_profile: true
 search: true
 ---
 
-<ul>
-  {% for post in site.blogp %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+
+{% for post in site.blogp %}
+
+  
+  <h2 id="{{ post.url }}" class="archive__subtitle">{{ post.title }}</h2>
+{% endfor %}
