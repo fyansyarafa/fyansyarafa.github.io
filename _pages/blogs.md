@@ -10,6 +10,9 @@ search: true
 
 {% for post in site.blogp %}
 
-  
-  <h2 id="{{ post.url }}" class="archive__subtitle">{{ post.title }}</h2>
+
+
+  <h2 id="{{ post.url }}" class="archive__subtitle">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </h2>
 {% endfor %}
