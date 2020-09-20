@@ -5,11 +5,13 @@ permalink: /blog/
 collection: blogs
 ---
 
-{% for tag in site.blogp %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<ul>
+  {% for post in site.blogp %}
+    <li>
+      <h3>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+
+    </li>
+  {% endfor %}
+</ul>
