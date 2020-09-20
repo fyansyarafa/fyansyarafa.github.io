@@ -6,6 +6,9 @@ categories: posts notebooks
 ---
 
 <hr />
+
 {% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+  {% if post.path contains 'notebooks' %}
+     {% include archive-single.html %}
+  {% endif %}
+{% endfor %}   
