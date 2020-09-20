@@ -277,7 +277,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: blogp
     values:
       layout: single
       author_profile: true
@@ -296,20 +296,3 @@ defaults:
       author_profile: true
 
   # _blog
-  - scope:
-      path: ""
-      type: blogp
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      read_time: true
-      comments:  false
-      related: true
-      show_date: true
-      show_tags: false
-
-collections:
-  blogp:
-    output: true
-    permalink: /:collection/:title/
