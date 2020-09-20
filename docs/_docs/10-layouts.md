@@ -250,7 +250,7 @@ collection: # collection name
 entries_layout: # list (default), grid
 show_excerpts: # true (default), false
 sort_by: # date (default) title
-sort_order: # forward (default), reverse
+sort_order: reverse # forward (default), reverse
 ```
 
 To create a page showing all documents in the `recipes` collection you'd create `recipes.md` in the root of your project and add this front matter:
@@ -332,7 +332,7 @@ Then adjust the `paginate_path` in **_config.yml** to match.
 
 ```yaml
 paginate_path: /blog/page:num
-``` 
+```
 
 **Note:** Jekyll can only paginate a single `index.html` file. If you'd like to paginate more pages (e.g. category indexes) you'll need the help of a custom plugin. For more pagination related settings check the [**Configuration**]({{ "/docs/configuration/#paginate" | relative_url }}) section.
 {: .notice--info}
@@ -576,7 +576,7 @@ For example, to color a Reddit icon, simply add a `color` declaration and the co
     color: #ff4500;
   }
 }
-``` 
+```
 
 ![Reddit link in author profile with color]({{ "/assets/images/mm-author-profile-reddit-color.png" | relative_url }})
 
@@ -626,7 +626,7 @@ To start, add a new key to `_data/navigation.yml`. This will be referenced later
 
 **Sample sidebar menu links:**
 
-```yaml 
+```yaml
 docs:
   - title: Getting Started
     children:
