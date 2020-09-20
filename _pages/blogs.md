@@ -8,9 +8,11 @@ search: true
 ---
 
 
-<ul>
+
+
   {% for post in site.blogp %}
-    
+
+      <a href="{{ post.url }}">{{ post.title }}</a>
+
     {% include archive-single.html %}
   {% endfor %}
-</ul>
