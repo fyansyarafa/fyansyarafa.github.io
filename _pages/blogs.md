@@ -12,7 +12,7 @@ search: true
 
 
 
-  <h2 id="{{ post.url }}" class="archive__subtitle">
+  <h2 id="{{ post.url }}" >
     <a href="{{ post.url }}">{{ post.title }}</a>
   </h2>
 {% endfor %}
