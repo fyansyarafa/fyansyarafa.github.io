@@ -8,12 +8,12 @@ search: true
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
-  {% assign posts = paginator.posts or paginator.blogp%}
+  {% assign posts =  paginator.blogp%}
 {% else %}
-  {% assign posts = site.posts or paginator.blogp%}
+  {% assign posts =  paginator.blogp%}
 {% endif %}
 
-{% for post in posts or blogp%}
+{% for post in  blogp%}
   {% include archive-single.html %}
 {% endfor %}
 
