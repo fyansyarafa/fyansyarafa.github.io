@@ -1,5 +1,5 @@
 ---
-permalink: /projects/:title
+
 title: "911 Calls Capstone Project"
 data: 2020-02-03
 tags: [python, exploratory data analysis]

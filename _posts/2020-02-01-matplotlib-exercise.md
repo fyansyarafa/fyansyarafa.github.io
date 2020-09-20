@@ -1,5 +1,5 @@
 ---
-permalink: /projects/:title
+
 title: "Matplotlib Excercise"
 data: 2020-02-01
 tags: [python, matplotlib, data visualization]

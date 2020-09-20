@@ -1,5 +1,5 @@
 ---
-permalink: /projects/:title
+
 title: "Pandas Data Visualization Exercise"
 data: 2020-02-01
 tags: [python, pandas]

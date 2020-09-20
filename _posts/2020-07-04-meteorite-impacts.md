@@ -1,5 +1,5 @@
 ---
-permalink: /projects/:title
+
 title: "Meteorite Impacts"
 data: 2020-07-04
 tags: [python,  exploratory data analysis, statistics, probability]
