@@ -12,7 +12,7 @@ search: true
 
 {% for post in site.blogp %}
 
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {% include archive-single.html %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    {% include archive-single.html %}
 
 {% endfor %}
