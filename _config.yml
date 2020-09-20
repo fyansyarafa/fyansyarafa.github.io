@@ -297,8 +297,8 @@ defaults:
 
   # _blog
   - scope:
-      path: "/notebooks"
-      type: posts
+      path: ""
+      type: blogp
     values:
       layout: single
       author_profile: true

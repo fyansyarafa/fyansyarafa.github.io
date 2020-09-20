@@ -7,7 +7,7 @@ author_profile: true
 search: true
 ---
 
-{% include group-by-array collection=site.posts.notebooks field="tags" %}
+{% include group-by-array collection=site.blogp field="tags" %}
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
