@@ -2,13 +2,10 @@
 title: Blogs
 layout: collection
 permalink: /blog/
-categories: posts notebooks
+collection: blogs
 ---
 
 <hr />
-
-{% for post in site.posts %}
-  {% if post.path contains 'notebooks' %}
-     {% include archive-single.html %}
-  {% endif %}
-{% endfor %}   
+{% for post in site.blogp %}
+  {% include archive-single.html %}
+{% endfor %}
