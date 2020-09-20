@@ -1,8 +1,8 @@
 ---
 permalink: /blog/:title
-title: "Test Blog 2"
-data: 2020-09-19
-tags: [test tag]
+title: "Moneyball (2011)"
+data: 2020-09-20
+tags: [data science, film]
 header:
 excerpt: ""
 mathjax: "true"

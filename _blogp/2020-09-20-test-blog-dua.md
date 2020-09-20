@@ -1,7 +1,7 @@
 ---
 permalink: /blog/:title
-title: "Blog by tag"
-data: 2020-09-19
+title: "test blog"
+data: 2020-09-20
 tags: [test tag]
 header:
 excerpt: ""
