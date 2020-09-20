@@ -309,7 +309,7 @@ defaults:
       show_date: true
       show_tags: false
 
-categories:
+collections:
   blogp:
     output: true
-    permalink: /:categories/:title/
+    permalink: /:collection/:title/
