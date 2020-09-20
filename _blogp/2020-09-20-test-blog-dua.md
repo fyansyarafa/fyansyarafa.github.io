@@ -1,6 +1,6 @@
 ---
 permalink: /blog/:title
-title: "Test Blog dua"
+title: "Blog by tag"
 data: 2020-09-19
 tags: [test tag]
 header:
