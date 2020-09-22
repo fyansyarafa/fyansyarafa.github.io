@@ -581,7 +581,7 @@ predictions
 
 
 
-`predictions` menghasilkan beberapa item `boolean`. Variabel tersebut akan dibandingkan dengan kelas-kelas dari `test_image_gen` untuk menghasilkan *classification report* dan *confusion matrix*. Matriks-matriks tersebut akan menghasilkan evaluasi performa dari klasifikasi yang dihasilkan.
+`predictions` menghasilkan array of `boolean`. Variabel tersebut akan dibandingkan dengan kelas-kelas dari `test_image_gen` untuk menghasilkan *classification report* dan *confusion matrix*. Matriks-matriks tersebut akan menghasilkan evaluasi performa dari klasifikasi yang dihasilkan.
 
 # Evaluation Metrics
 
@@ -646,7 +646,7 @@ Confusion matrix di atas menunjukkan bahwa 25 item berada pada error type 1 (Fal
 
 Kemudian sebanyak 290 item berada pada error type 2 (False Negative). Menunjukkan bahwa model menghasilkan klasifikasi ke kelas 1 (uninfected), yang sebenarnya adalah kelas 0 (parasitized).
 
-Sisaya untuk nilai nilai TN dan FN, merupakan hasil-hasil prediksi benar. Model memprediksi parasitized yang sebenarnya parasitized, atau model memprediksi uninfected, tetapi sebenarnya memang tidak terinfeksi (uninfected).
+Sisaya untuk nilai nilai TN dan TN, merupakan hasil-hasil prediksi benar. Model memprediksi parasitized yang sebenarnya parasitized, atau model memprediksi uninfected, tetapi sebenarnya memang tidak terinfeksi (uninfected).
 
 # Classification of New Image
 
