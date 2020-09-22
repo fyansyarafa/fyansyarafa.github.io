@@ -345,7 +345,7 @@ before_washing = monthly[monthly['date'] < handwashing_start]
 after_washing = monthly[monthly['date'] >= handwashing_start]
 
 # Plot monthly proportion of deaths before and after handwashing
-# ... YOUR CODE FOR TASK 6 ...
+
 ax = before_washing.plot(x = 'date', y= 'proportion_deaths', label='before_washing')
 after_washing.plot(x = 'date', y= 'proportion_deaths', label='after_washing', ax=ax)
 
