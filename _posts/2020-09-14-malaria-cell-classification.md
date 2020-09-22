@@ -626,7 +626,7 @@ sns.heatmap(confusion_matrix(test_image_gen.classes,predictions),annot=True)
 ![png](/images/malaria/CNN_Malaria_Infectious_Classification_83_1.png)
 
 
-
+Dengan tuple unpacking, ekstrak tn, fp, fn, dan tp:
 ```
 tn, fp, fn, tp = confusion_matrix(test_image_gen.classes,predictions).ravel()
 
