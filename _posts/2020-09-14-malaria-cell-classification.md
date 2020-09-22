@@ -646,7 +646,7 @@ Confusion matrix di atas menunjukkan bahwa 25 item berada pada error type 1 (Fal
 
 Kemudian sebanyak 290 item berada pada error type 2 (False Negative). Menunjukkan bahwa model menghasilkan klasifikasi ke kelas 1 (uninfected), yang sebenarnya adalah kelas 0 (parasitized).
 
-Sisaya untuk nilai nilai TN dan TN, merupakan hasil-hasil prediksi benar. Model memprediksi parasitized yang sebenarnya parasitized, atau model memprediksi uninfected, tetapi sebenarnya memang tidak terinfeksi (uninfected).
+Sisaya untuk nilai nilai TP dan TN, merupakan hasil-hasil prediksi benar. Model memprediksi parasitized yang sebenarnya parasitized, atau model memprediksi uninfected, tetapi sebenarnya memang tidak terinfeksi (uninfected).
 
 # Classification of New Image
 
