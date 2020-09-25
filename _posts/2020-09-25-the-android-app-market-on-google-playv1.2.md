@@ -286,7 +286,7 @@ plotly.offline.iplot({'data': data, 'layout': layout})
 
 
 
-![png](/images/notebook_files/plotly2.png)
+![png](/images/notebook_files/plotly2.PNG)
 
 
 ## 5. Size and price of an app
