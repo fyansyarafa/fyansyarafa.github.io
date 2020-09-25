@@ -1,6 +1,6 @@
 ---
 title: "Childbird in Vienna General Hospital"
-data: 2020-09-20
+data: 2020-09-25
 tags: []
 header:
 excerpt: "Trying to analyze the effect of midwives do handwashing procedure to reduce proportion of deaths of childbirths."
