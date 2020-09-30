@@ -261,7 +261,7 @@ yearly2.plot(x='year', y='proportion_deaths', label='clinic 2',ax=ax);
 ```
 
 
-![png](/images/notebook_files/notebook_5_0.png)
+![png](/images/Vienna/notebook_files/notebook_5_0.png)
 
 
 ## 4. The handwashing begins
@@ -327,7 +327,7 @@ plt.ylabel('Proportion deaths')
 
 
 
-![png](/images/notebook_files/notebook_10_1.png)
+![png](/images/Vienna/notebook_files/notebook_10_1.png)
 
 
 ## 6. The effect of handwashing highlighted
@@ -359,7 +359,7 @@ after_washing.plot(x = 'date', y= 'proportion_deaths', label='after_washing', ax
 
 
 
-![png](/images/notebook_files/notebook_12_1.png)
+![png](/images/Vienna/notebook_files/notebook_12_1.png)
 
 
 ## 7. More handwashing, fewer deaths?
