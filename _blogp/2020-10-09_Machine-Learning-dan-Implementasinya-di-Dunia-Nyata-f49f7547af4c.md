@@ -21,8 +21,8 @@ Lalu bagaimana suatu komputer untuk mengurangi _cost_ tersebut? Tentunya dibutuh
 
 Bagaimana komputer/mesin dapat belajar sendiri tanpa diprogram? Komputer dapat memiliki kemampuan tersebut dengan memberikan _experience_ kepada mesin sehingga dapat menghasilkan output yang diharapkan tanpa harus terus-menerus diprogram.
 
-![Artificial Intelligence](\images\img\1__07gR7X8__LE4FmkgjuYhCFA.png)
-Artificial Intelligence
+![](\images\img\1__07gR7X8__LE4FmkgjuYhCFA.png)
+
 
 Machine learning sendiri merupakan bagian dari Artificial Intelligence yang dapat diartikan sebagai kemampuan yang dapat meniru kecerdasan alami yang ada pada makhluk hidup, terutama manusia. Kemampuan tersebut lebih lanjut dapat menyelesaikan berbagai bentuk masalah selayaknya manusia menyelesaikan masalahnya.
 
@@ -82,3 +82,5 @@ Berbagai macam produk _smart home_ telah dihasilkan dengan memanfaatkan _artific
 Di era sekarang, hampir seluruh manusia di muka bumi pernah menggunakan mesin penerjemah untuk aktivitas hariannya. Mesin penerjemah digunakan untuk melakukan penerjemahan dari bahasa satu ke bahasa lainnya. Metode _Recurrent Neural Network_ pada _Deep Learning_ dapat digunakan untuk memproses aktivitas penerjemahan tersebut.
 
 Tidak hanya yang disebutkan di atas. Metode metode _artificial intelligence_ juga banyak digunakan dalam produk-produk modern lainnya seperti virtual assistant: Cortana, Siri, atau Google Now.
+
+Read on [medium](https://medium.com/@fyansyarafa/machine-learning-dan-implementasinya-di-dunia-nyata-f49f7547af4c)

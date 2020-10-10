@@ -37,3 +37,5 @@ Dari cerita panjang dari film tersebut, dapat dijadikan pelajaran bahwa kita tid
 Di era olahraga yang modern, pemanfaatan pengolahan data telah digunakan untuk pengambilan keputusan berbagai tim olahraga. Salah satunya Liverpool yang menurut [artikel](https://www.liverpool.com/liverpool-fc-news/features/liverpool-transfer-news-jurgen-klopp-17569689?fbclid=IwAR016Y0Z609QIKqyJWhwCXoCzFsLhqOJR_JrnSn6npZQr3iJ7k3Vktjkzg4), mereka menggunakan ilmu pemanfaatan data untuk transfer pemain, selama pertandingan dan mencatatkan prestasi yang luar biasa.
 
 Apakah pemanfaatan data terbatas oleh hal-hal di atas? Tentunya tidak. Kita dapat memanfaakanya di berbagai sektor bisnis lainnya. Tujuannya, menghasilkan rekomendasi keputusan untuk meminimalkan cost (biaya pengeluaran, waktu, operasional), mengoptimalkan apa yang telah didapatkan, mendapatkan _pattern_/pola tertentu serta mencatatkan keuntungan yang tinggi. Pengolahan data tersebut tentunya akan lebih optimal jika dilakukan dengan memanfaatkan metode-metode yang ada pada bidang Artificial Intelligence dan statistika.
+
+Read on [medium](https://medium.com/@fyansyarafa/moneyball-2011-baseball-and-statistics-9acebfdde4ce)
