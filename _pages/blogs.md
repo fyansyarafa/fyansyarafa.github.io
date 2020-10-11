@@ -6,6 +6,13 @@ collection: blogs
 ---
 
 <hr />
-{% for post in site.blogp %}
-  {% include archive-single.html %}
+
+{% include group-by-array collection=site.blogp field="tags" %}
+
+{% for tag in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+  {% for blog in blogp %}
+    {% include archive-single.html %}
+  {% endfor %}
 {% endfor %}
