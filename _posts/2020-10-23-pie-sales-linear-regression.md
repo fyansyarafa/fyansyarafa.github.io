@@ -1,11 +1,13 @@
 ---
 
-title: "Pie Sales Multiple Liner Regression"
+title: "Pie Sales Multiple Linear Regression"
 data: 2020-10-23
-tags: [python, matplotlib, data visualization, linear regression]
+tags: [python,  exploratory data analysis, probability, deep learning, artificial neural network, convolutional neural network, malaria, classification]
 header:
-
+excerpt: ""
 mathjax: "true"
+toc: true
+toc_sticky: false
 ---
 
 # Tujuan
