@@ -3,8 +3,10 @@ layout: archive
 permalink: /statnotebook/
 
 author_profile: false
-toc: true
+
 search: true
+toc: true
+toc_sticky: false
 ---
 
 
