@@ -1,7 +1,7 @@
 ---
 
 title: "Twitter Hate Speech Classification"
-data: 2020-09-14
+data: 2021-05-11
 tags: [python,  exploratory data analysis, classification]
 header:
 excerpt: ""
