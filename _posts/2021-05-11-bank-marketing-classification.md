@@ -291,11 +291,11 @@ plt.legend(labels=labels);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_13_0.png)
+![png](/images/bank/bank_marketing_classification_13_0.png)
 
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_13_1.png)
+![png](/images/bank/bank_marketing_classification_13_1.png)
 
 
 Sepertinya proporsi kategori no pada fitur deposit sedikit lebih tinggi dibanding yes.
@@ -311,7 +311,7 @@ plt.title('Matriks Korelasi untuk Variabel Numerik');
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_16_0.png)
+![png](/images/bank/bank_marketing_classification_16_0.png)
 
 
 Hanya terdapat satu hubungan yang menonjol antara `pdays` dan `previous`, dengan nilai korelasi 0.51 dengan arah positif.
@@ -331,7 +331,7 @@ plt.legend();
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_19_0.png)
+![png](/images/bank/bank_marketing_classification_19_0.png)
 
 
 Nilai *average* dihasilkan dari nilai *median* fitur `age`, karena sepertinya terdapat *outlier* sehingga mempengaruhi nilai *mean*.
@@ -657,7 +657,7 @@ plt.legend();
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_23_0.png)
+![png](/images/bank/bank_marketing_classification_23_0.png)
 
 
 
@@ -673,7 +673,7 @@ sns.boxplot(data=df, x = 'deposit', y = 'age', hue='deposit')
 
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_24_1.png)
+![png](/images/bank/bank_marketing_classification_24_1.png)
 
 
 
@@ -822,7 +822,7 @@ plt.tight_layout()
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_28_0.png)
+![png](/images/bank/bank_marketing_classification_28_0.png)
 
 
 ## Balance
@@ -840,7 +840,7 @@ plt.legend();
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_30_0.png)
+![png](/images/bank/bank_marketing_classification_30_0.png)
 
 
 
@@ -1164,7 +1164,7 @@ plt.legend();
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_33_0.png)
+![png](/images/bank/bank_marketing_classification_33_0.png)
 
 
 
@@ -1173,7 +1173,7 @@ sns.boxplot(data=df, x = 'deposit', y = 'balance', hue='deposit');
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_34_0.png)
+![png](/images/bank/bank_marketing_classification_34_0.png)
 
 
 ### Balance vs Variabel-Variabel Kategorik
@@ -1197,7 +1197,7 @@ plt.tight_layout()
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_36_0.png)
+![png](/images/bank/bank_marketing_classification_36_0.png)
 
 
 ## Duration
@@ -1215,7 +1215,7 @@ plt.legend();
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_38_0.png)
+![png](/images/bank/bank_marketing_classification_38_0.png)
 
 
 
@@ -1238,7 +1238,7 @@ plt.legend();
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_39_0.png)
+![png](/images/bank/bank_marketing_classification_39_0.png)
 
 
 
@@ -1247,7 +1247,7 @@ sns.boxplot(data=df, x = 'deposit', y = 'duration', hue='deposit');
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_40_0.png)
+![png](/images/bank/bank_marketing_classification_40_0.png)
 
 
 ### Duration vs Variabel-Variabel Kategorik
@@ -1271,7 +1271,7 @@ plt.tight_layout()
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_42_0.png)
+![png](/images/bank/bank_marketing_classification_42_0.png)
 
 
 ## Pdays
@@ -1289,7 +1289,7 @@ plt.legend();
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_44_0.png)
+![png](/images/bank/bank_marketing_classification_44_0.png)
 
 
 
@@ -1324,7 +1324,7 @@ plt.legend();
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_46_0.png)
+![png](/images/bank/bank_marketing_classification_46_0.png)
 
 
 
@@ -1333,7 +1333,7 @@ sns.boxplot(data=df, x = 'deposit', y = 'pdays', hue='deposit');
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_47_0.png)
+![png](/images/bank/bank_marketing_classification_47_0.png)
 
 
 ### Pdays vs Variabel-Variabel Kategorik
@@ -1357,7 +1357,7 @@ plt.tight_layout()
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_49_0.png)
+![png](/images/bank/bank_marketing_classification_49_0.png)
 
 
 ## Previous
@@ -1375,7 +1375,7 @@ plt.legend();
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_51_0.png)
+![png](/images/bank/bank_marketing_classification_51_0.png)
 
 
 
@@ -1398,7 +1398,7 @@ plt.legend();
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_52_0.png)
+![png](/images/bank/bank_marketing_classification_52_0.png)
 
 
 
@@ -1407,7 +1407,7 @@ sns.boxplot(data=df, x = 'deposit', y = 'previous', hue='deposit');
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_53_0.png)
+![png](/images/bank/bank_marketing_classification_53_0.png)
 
 
 ### Previous vs Variabel-Variabel Kategorik
@@ -1431,7 +1431,7 @@ plt.tight_layout()
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_55_0.png)
+![png](/images/bank/bank_marketing_classification_55_0.png)
 
 
 ## Campaign
@@ -1449,7 +1449,7 @@ plt.legend();
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_57_0.png)
+![png](/images/bank/bank_marketing_classification_57_0.png)
 
 
 
@@ -1472,7 +1472,7 @@ plt.legend();
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_58_0.png)
+![png](/images/bank/bank_marketing_classification_58_0.png)
 
 
 
@@ -1481,7 +1481,7 @@ sns.boxplot(data=df, x = 'deposit', y = 'campaign', hue='deposit');
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_59_0.png)
+![png](/images/bank/bank_marketing_classification_59_0.png)
 
 
 ### Campaign Variabel-Variabel Kategorik
@@ -1505,7 +1505,7 @@ plt.tight_layout()
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_61_0.png)
+![png](/images/bank/bank_marketing_classification_61_0.png)
 
 
 # Features Engineering
@@ -1555,7 +1555,7 @@ sns.boxplot(df['age']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_66_0.png)
+![png](/images/bank/bank_marketing_classification_66_0.png)
 
 
 
@@ -1571,7 +1571,7 @@ sns.boxplot(df_new['age']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_69_0.png)
+![png](/images/bank/bank_marketing_classification_69_0.png)
 
 
 
@@ -1590,7 +1590,7 @@ sns.boxplot(df_new['age']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_71_0.png)
+![png](/images/bank/bank_marketing_classification_71_0.png)
 
 
 ### Balance
@@ -1601,7 +1601,7 @@ sns.boxplot(df_new['balance']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_73_0.png)
+![png](/images/bank/bank_marketing_classification_73_0.png)
 
 
 
@@ -1620,7 +1620,7 @@ sns.boxplot(df_new['balance']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_75_0.png)
+![png](/images/bank/bank_marketing_classification_75_0.png)
 
 
 ### Duration
@@ -1631,7 +1631,7 @@ sns.boxplot(df_new['duration']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_77_0.png)
+![png](/images/bank/bank_marketing_classification_77_0.png)
 
 
 
@@ -1650,7 +1650,7 @@ sns.boxplot(df_new['duration']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_79_0.png)
+![png](/images/bank/bank_marketing_classification_79_0.png)
 
 
 ### Pdays
@@ -1661,7 +1661,7 @@ sns.boxplot(df_new['pdays']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_81_0.png)
+![png](/images/bank/bank_marketing_classification_81_0.png)
 
 
 
@@ -1680,7 +1680,7 @@ sns.boxplot(df_new['pdays']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_83_0.png)
+![png](/images/bank/bank_marketing_classification_83_0.png)
 
 
 ### Previous
@@ -1691,7 +1691,7 @@ sns.boxplot(df_new['previous']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_85_0.png)
+![png](/images/bank/bank_marketing_classification_85_0.png)
 
 
 
@@ -1710,7 +1710,7 @@ sns.boxplot(df_new['previous']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_87_0.png)
+![png](/images/bank/bank_marketing_classification_87_0.png)
 
 
 ### Campaign
@@ -1721,7 +1721,7 @@ sns.boxplot(df_new['campaign']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_89_0.png)
+![png](/images/bank/bank_marketing_classification_89_0.png)
 
 
 
@@ -1740,7 +1740,7 @@ sns.boxplot(df_new['campaign']);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_91_0.png)
+![png](/images/bank/bank_marketing_classification_91_0.png)
 
 
 ## Drop Kolom/Fitur
@@ -3502,7 +3502,7 @@ sns.heatmap(confusion_matrix(y_test,predictions),annot=True);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_118_0.png)
+![png](/images/bank/bank_marketing_classification_118_0.png)
 
 
 Dengan tuple unpacking, ekstrak tn, fp, fn, dan tp:
@@ -3558,7 +3558,7 @@ plt.show()
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_124_0.png)
+![png](/images/bank/bank_marketing_classification_124_0.png)
 
 
 # Random Forest
@@ -3723,7 +3723,7 @@ sns.heatmap(confusion_matrix(y_test,predictions),annot=True);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_137_0.png)
+![png](/images/bank/bank_marketing_classification_137_0.png)
 
 
 
@@ -3763,7 +3763,7 @@ plt.show()
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_140_0.png)
+![png](/images/bank/bank_marketing_classification_140_0.png)
 
 
 # Logistic Regression
@@ -3915,7 +3915,7 @@ sns.heatmap(confusion_matrix(y_test,predictions),annot=True);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_150_0.png)
+![png](/images/bank/bank_marketing_classification_150_0.png)
 
 
 
@@ -3955,7 +3955,7 @@ plt.show()
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_153_0.png)
+![png](/images/bank/bank_marketing_classification_153_0.png)
 
 
 # K Nearest Neighbors
@@ -4438,7 +4438,7 @@ sns.heatmap(confusion_matrix(y_test,predictions),annot=True);
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_174_0.png)
+![png](/images/bank/bank_marketing_classification_174_0.png)
 
 
 
@@ -4478,7 +4478,7 @@ plt.show()
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_177_0.png)
+![png](/images/bank/bank_marketing_classification_177_0.png)
 
 
 # Membandingkan Model
@@ -4498,7 +4498,7 @@ plt.show()
 ```
 
 
-![png](bank_marketing_classification_files/bank_marketing_classification_179_0.png)
+![png](/images/bank/bank_marketing_classification_179_0.png)
 
 
 Model terbaik adalah model yang dihasilkan dengan Random Forest dan Logistic Regression. Keduanya berada di angka auc 0.8891 dan 0.8877 yang dapat di lihat pada ROC curve di atas. Begitu pula yang ada pada metrics evaluasi sebelumnya (classification report dan confusion matrix)
