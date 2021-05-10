@@ -4502,8 +4502,3 @@ plt.show()
 
 
 Model terbaik adalah model yang dihasilkan dengan Random Forest dan Logistic Regression. Keduanya berada di angka auc 0.8891 dan 0.8877 yang dapat di lihat pada ROC curve di atas. Begitu pula yang ada pada metrics evaluasi sebelumnya (classification report dan confusion matrix)
-
-
-```
-
-```
