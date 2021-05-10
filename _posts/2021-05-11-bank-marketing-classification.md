@@ -9,7 +9,7 @@ mathjax: "true"
 toc: true
 toc_sticky: false
 header:
-  teaser: '/images/malaria/malaria_m.jpg'
+  teaser: '/images/bank/teaser.png'
 ---
 
 
