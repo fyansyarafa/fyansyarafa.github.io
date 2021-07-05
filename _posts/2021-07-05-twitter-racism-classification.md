@@ -16,7 +16,7 @@ header:
 
 This repository is the final project to complete the Telkom Digital Talent Incubator 2020 program. This research project was created as our contribution as a Telkom DTI 2020 Data Scientist to the UN Sustainable Development Goals 2030 program in the social justice and humanities fields to realize racial equality in communities worldwide.
 
-![jpg](/images/racism/poster.png)
+![jpg](/images/racism/poster.jpg)
 
 
 ## Dataset
