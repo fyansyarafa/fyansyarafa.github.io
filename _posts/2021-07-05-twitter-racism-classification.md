@@ -16,7 +16,7 @@ header:
 
 This repository is the final project to complete the Telkom Digital Talent Incubator 2020 program. This research project was created as our contribution as a Telkom DTI 2020 Data Scientist to the UN Sustainable Development Goals 2030 program in the social justice and humanities fields to realize racial equality in communities worldwide.
 
-![Poster](https://github.com/alfhi24/FinalProjectDTI/blob/main/poster.jpg)
+![jpg](/images/racism/poster.png)
 
 
 ## Dataset
@@ -26,10 +26,10 @@ The dataset used is a collection of racist tweets in Indonesian. This dataset co
 
 This how the dataset looks like in wordcloud :
 
-![Racism Wordcloud](https://github.com/alfhi24/FinalProjectDTI/blob/main/racismwordcloud.png)
+![png](/images/racism/wc.png)
 
 ## Research Flowchart
-![Flowchart](https://github.com/alfhi24/FinalProjectDTI/blob/main/flowchart.png)
+![png](/images/racism/flow.png)
 
 ## Text Preprocessing
 Text data needs to be cleaned and encoded to numerical values before giving them to machine learning models. This process of cleaning and encoding is called text preprocessing. The following are the preprocessing stages carried out in this project:
@@ -44,7 +44,7 @@ Text data needs to be cleaned and encoded to numerical values before giving them
 
 ## Model
 The model is build using the Multi Layer Perceptron or MLP architecture. The activation function that will be used for hidden neurons is the Rectified Linear Unit (ReLU).
-![Model Illustration](https://media.geeksforgeeks.org/wp-content/uploads/20190410161828/newContent12.png)
+![png](/images/racism/dl.png)
 
 ## How to Use
 - Make sure you already have python and pip installed on your computer
@@ -54,7 +54,7 @@ The model is build using the Multi Layer Perceptron or MLP architecture. The act
 
 
 ## Presentation and Demo
-- https://www.youtube.com/watch?v=kO1japHtYf8&ab_channel=MuhammadAlfhiSaputra&loop=0
+- [https://www.youtube.com/watch?v=kO1japHtYf8&ab_channel=MuhammadAlfhiSaputra&loop=0](https://www.youtube.com/watch?v=kO1japHtYf8&ab_channel=MuhammadAlfhiSaputra&loop=0)
 
 ## Source Code
-- https://github.com/ds-dti/DS01_07_racism-detection
+- [https://github.com/ds-dti/DS01_07_racism-detection](https://github.com/ds-dti/DS01_07_racism-detection)
