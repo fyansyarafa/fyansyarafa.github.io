@@ -22,7 +22,7 @@ This repository is the final project to complete the Telkom Digital Talent Incub
 ## Dataset
 The dataset used is a collection of racist tweets in Indonesian. This dataset contains 511 rows labeled `Non-Racism` and 175 rows labeled `Racism`. You can see the dataset in the following link:
 
-https://raw.githubusercontent.com/asthala/racism-detection/master/datasetfix.csv
+[https://raw.githubusercontent.com/asthala/racism-detection/master/datasetfix.csv](https://raw.githubusercontent.com/asthala/racism-detection/master/datasetfix.csv)
 
 This how the dataset looks like in wordcloud :
 
