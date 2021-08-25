@@ -1,7 +1,8 @@
 ---
 title: "About"
 permalink: /about/
-sidebar: sidebar
+sidebar:
+  nav: "docs"
 ---
 
 Hi, there! I am currently as a Data Scientist Talent at Digital Talent Incubator of Telkom Indonesia. I just finished my undergraduate degree of Informatics at Telkom University with final project called *"Real Time Face Expression Recognition System Using the Viola-Jones Method".*
