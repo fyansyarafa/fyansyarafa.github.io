@@ -17,5 +17,4 @@ main:
 docs:
   - title: Getting Started
     children:
-      - title: "Quick-Start Guide"
-        
+      - text: "Quick-Start Guide"
