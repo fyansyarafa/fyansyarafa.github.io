@@ -13,7 +13,3 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-
-sidebar:
-  - title: "Weekly Run"
-    text: "Some text here."

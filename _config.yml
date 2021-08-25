@@ -121,6 +121,14 @@ author:
       icon: "fab fa-fw fa-area-chart"
       url: "https://public.tableau.com/profile/la.ode.muhamad.sofyan.syarafa5343#!/"
 
+sidebar:
+  - title: "Weekly Run"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
+
 # Site Footer
 footer:
   links:
