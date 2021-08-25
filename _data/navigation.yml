@@ -16,5 +16,4 @@ main:
 
 docs:
   - title: My Weekly Run
-    children:
-      - text: 'text'
+    text: "dfdfsfd"
