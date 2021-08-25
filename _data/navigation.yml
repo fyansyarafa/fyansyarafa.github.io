@@ -15,5 +15,7 @@ main:
   #   url: /sitemap/
 
 docs:
-  - title: My Weekly Runs
-    text: "dfdfsfd"
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        
