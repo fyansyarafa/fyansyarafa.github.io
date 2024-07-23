@@ -5,7 +5,7 @@ sidebar:
   nav: "docs"
 ---
 
-Hi, sfthere! I am currently as a Data Scientist Talent at Digital Talent Incubator of Telkom Indonesia. I just finished my undergraduate degree of Informatics at Telkom University with final project called *"Real Time Face Expression Recognition System Using the Viola-Jones Method".*
+Hi, there! I am currently as A Data Engineer with experience in developing data pipelines, and a background in Data Science. My skills include ETL (Extract, Transform, Load), data modeling, data wrangling, data analysis and visualization, machine learning, and deep learning.
 
 This website shows my portofolio projects at Data Science and Statistics. Besides, this portofolio website contains blog page to share my experiences and studies about Data Science and Statistics.
 
