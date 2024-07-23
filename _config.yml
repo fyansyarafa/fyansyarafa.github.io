@@ -98,13 +98,13 @@ author:
   name             : "La Ode Muhamad Sofyan Syarafa"
   avatar           : "/images/fp2.jpg"
 
-  bio              : "Data Engineer | ETL Developer | Data Scientist"
+  bio              : "Data Engineer, ETL Developer, Data Scientist"
   location         : "Jakarta, Indonesia"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:abuluqman19#hotmail.com"
+      url: "mailto:fyansyarafa4@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
