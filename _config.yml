@@ -98,8 +98,8 @@ author:
   name             : "La Ode Muhamad Sofyan Syarafa"
   avatar           : "/images/fp2.jpg"
 
-  bio              : "Data Scientist Talent at Digital Talent Incubator of Telkom Indonesia"
-  location         : "Bandung, West Java, Indonesia"
+  bio              : "Data Engineer | ETL Developer | Data Scientist"
+  location         : "Jakarta, Indonesia"
   email            :
   links:
     - label: "Email"
@@ -108,9 +108,7 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/la-ode-muhamad-sofyan-syarafa-69a1a1107/"
+   
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/fyan.syrf"
